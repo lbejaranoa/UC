@@ -12,7 +12,14 @@ public class DescuentoPlatinum implements EstrategiaDescuento{
 
     @Override
     public double aplicarDescuento(double monto) {
-        return monto*0.75;
+        double montoFinal; 
+        if (monto>500){
+            montoFinal=monto * 0.75;
+        }
+        else{
+            montoFinal=monto; 
+        }
+        return montoFinal; 
     }
     
 }
