@@ -14,7 +14,7 @@ public class DescuentoVip implements EstrategiaDescuento{
     public double aplicarDescuento(double monto) {
         double montoFinal; 
         if (monto>1000){
-            montoFinal=monto * 0.85;
+            montoFinal=monto * 0.88;
         }
         else{
             montoFinal=monto; 
