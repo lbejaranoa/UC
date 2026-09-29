@@ -12,7 +12,14 @@ public class DescuentoVip implements EstrategiaDescuento{
 
     @Override
     public double aplicarDescuento(double monto) {
-        return monto * 0.85; 
+        double montoFinal; 
+        if (monto>1000){
+            montoFinal=monto * 0.85;
+        }
+        else{
+            montoFinal=monto; 
+        }
+        return montoFinal; 
     }
     
 }
