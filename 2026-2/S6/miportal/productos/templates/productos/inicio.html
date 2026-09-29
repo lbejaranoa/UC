@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Sitio con Django</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #0c4b33, #44b78b);
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: #333;
+        }
+
+        .contenedor {
+            width: 90%;
+            max-width: 700px;
+
+            background-color: white;
+            padding: 50px;
+
+            border-radius: 15px;
+
+            text-align: center;
+
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        .logo {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #0c4b33;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .boton {
+            display: inline-block;
+
+            background-color: #44b78b;
+            color: white;
+
+            padding: 12px 25px;
+
+            text-decoration: none;
+
+            border-radius: 8px;
+
+            font-weight: bold;
+
+            transition: 0.3s;
+        }
+
+        .boton:hover {
+            background-color: #0c4b33;
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            margin-top: 35px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <div class="logo">
+            🐍
+        </div>
+
+        <h1>Bienvenidos a Django</h1>
+
+        <p>
+            Este es mi primer proyecto utilizando
+            <strong>Django</strong>, un framework web desarrollado con Python.
+        </p>
+
+        <a href="#" class="boton">
+            Explorar proyecto
+        </a>
+
+        <div class="footer">
+            Proyecto desarrollado con Python + Django
+        </div>
+
+    </div>
+
+</body>
+</html>
